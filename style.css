@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+img{
+    height: 100vh;
+    object-fit: contain;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.photo{
+    height: 100vh;
+    width: 20vw;
+    /* object-fit:cover ;  */
+    background-position: center;
+    background-size: cover;
+}
+.one{
+    background-image: url('./images/foto\ agnes.jpeg');
+}
+.two{
+    background-image: url('./images/photo2.jpeg');
+}
+.three{
+    background-image: url('./images/photo3.jpeg');
+}
+.four{
+    background-image: url('./images/photo4.jpeg');
+}
+.five{
+    background-image: url('./images/photo5.jpeg');
+}
+.eleven{
+    background-image: url('./images/photo11.jpeg');
+}
+.sixteen{
+    background-image: url('./images/photo16.jpeg');
+}
+.twelve{
+    background-image: url('./images/photo12.jpeg');
+}
+.fourteen{
+    background-image: url('./images/photo14.jpeg');
+}
+.thirteen{
+    background-image: url('./images/photo13.jpeg');
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+@media (max-width: 600px) {
+
+    .home{
+        flex-wrap: wrap;
+    }
+    .photo{
+        height: 25vh;
+        width: 20vw;
+    }
+}
